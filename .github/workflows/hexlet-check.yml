@@ -1,0 +1,27 @@
+name: hexlet-check
+
+# Trigger the workflow on push or pull request
+on:
+  - push
+
+jobs:
+  build:
+    run on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+        npm-version: [6.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: make setup
+      - uses: make start
+
+      - run: make test
+      - run: make lint
+
+

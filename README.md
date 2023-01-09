@@ -1,5 +1,7 @@
 # Example app for CI Hexlet course
 
+![Actions Status](https://github.com/Lugonue/frontend-project-46/workflows/hexlet-check/badge.svg)
+
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
