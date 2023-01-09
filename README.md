@@ -1,6 +1,6 @@
 # Example app for CI Hexlet course
 
-[![Actions Status](https://github.com/Lugonue/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Lugonue/hexlet-ci-app/actions/workflows/hexlet-check.yml)
+[![hexlet-check](https://github.com/Lugonue/hexlet-ci-app/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Lugonue/hexlet-ci-app/actions/workflows/hexlet-check.yml)
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
