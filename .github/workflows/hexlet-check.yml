@@ -18,8 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: make setup
-      - uses: make start
+      - run: make setup
+      - run: make start
 
       - run: make test
       - run: make lint
