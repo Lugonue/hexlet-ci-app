@@ -20,7 +20,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           npm-version: ${{ matrix.npm-version }}
       - run: make setup
-      - run: make start
 
       - run: make test
       - run: make lint
